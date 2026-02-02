@@ -1,0 +1,26 @@
+<additional>
+    <!-- 8-Phase Adaptive Signal Logic -->
+    <tlLogic id="center" type="static" programID="custom" offset="0">
+
+        <!-- Phase 0: North–South Straight Green -->
+        <phase duration="25" state="GGgrrrGGgrrr"/>
+        <!-- Phase 1: North–South Straight Yellow -->
+        <phase duration="3" state="yygrrryygrrr"/>
+
+        <!-- Phase 2: East–West Straight Green -->
+        <phase duration="25" state="rrGGgrrrGGgr"/>
+        <!-- Phase 3: East–West Straight Yellow -->
+        <phase duration="3" state="rryygrrryygr"/>
+
+        <!-- Phase 4: North–South Left Turn Green -->
+        <phase duration="15" state="GrrrGrrrGrrr"/>
+        <!-- Phase 5: North–South Left Turn Yellow -->
+        <phase duration="3" state="yrrryrrryrrr"/>
+
+        <!-- Phase 6: East–West Left Turn Green -->
+        <phase duration="15" state="rrrGrrrGrrrG"/>
+        <!-- Phase 7: East–West Left Turn Yellow -->
+        <phase duration="3" state="rrryrrryrrry"/>
+
+    </tlLogic>
+</additional>

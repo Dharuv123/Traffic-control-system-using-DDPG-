@@ -1,0 +1,24 @@
+<routes>
+
+    <vType id="car" accel="1.0" decel="4.5" length="5" maxSpeed="25"/>
+
+    <!-- Routes -->
+    <route id="W_E" edges="W2TL TL2E"/>
+    <route id="E_W" edges="E2TL TL2W"/>
+    <route id="N_S" edges="N2TL TL2S"/>
+    <route id="S_N" edges="S2TL TL2N"/>
+
+    <!-- FLOWS (vehicles every second) -->
+    <flow id="flow_W_E" type="car" route="W_E"
+          begin="0" end="3600" vehsPerHour="1200"/>
+
+    <flow id="flow_E_W" type="car" route="E_W"
+          begin="0" end="3600" vehsPerHour="1200"/>
+
+    <flow id="flow_N_S" type="car" route="N_S"
+          begin="0" end="3600" vehsPerHour="900"/>
+
+    <flow id="flow_S_N" type="car" route="S_N"
+          begin="0" end="3600" vehsPerHour="900"/>
+
+</routes>
